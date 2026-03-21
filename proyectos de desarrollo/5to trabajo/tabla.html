@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>tabla</title>
+    <link rel="stylesheet" href="tabla.css">
+</head>
+<body>  
+    <div class="contenedor">
+        <h1>Lista Personalizada</h1>
+        
+        <div class="mensaje-bienvenida" id="mensajeBienvenida">
+            Bienvenido Empieza agregando tu primer elemento con el formulario de abajo 
+        </div>
+        
+        <div class="formulario">
+            <h2 id="formulario-titulo">Agregar nuevo elemento</h2>
+            <div class="grupo-form">
+                <input type="text" id="nombre" placeholder="Nombre del elemento">
+                <input type="text" id="categoria" placeholder="Categoría">
+                <input type="number" id="anio" placeholder="Año de lanzamiento">
+                <button id="guardar-btn">Guardar</button>
+                <button id="cancelar-btn" style="background-color: #999; display: none;">Cancelar</button>
+            </div>
+        </div>
+        
+        <div class="buscador">
+            <input type="text" id="filtro" placeholder=" Buscar por nombre, categoría o año...">
+        </div>
+        
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th data-campo="nombre">Nombre ⬍</th>
+                    <th data-campo="categoria">Categoría ⬍</th>
+                    <th data-campo="anio">Año ⬍</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-body">
+                
+            </tbody>
+        </table>
+    </div>
+
+<script src="tabla.js"></script>
+</body>
+</html>
+    

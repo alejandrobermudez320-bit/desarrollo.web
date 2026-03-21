@@ -1,0 +1,150 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            padding: 20px;
+        }
+        
+        .contenedor {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #24292e;
+            margin-bottom: 20px;
+        }
+        
+        .barra-busqueda {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e1e4e8;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        
+        button {
+            padding: 12px 24px;
+            background-color: #2ea44f;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #2c974b;
+        }
+        
+        button:disabled {
+            background-color: #94d3a2;
+            cursor: not-allowed;
+        }
+        
+        .resultados {
+            margin-top: 20px;
+        }
+        
+        .cargando {
+            text-align: center;
+            padding: 40px;
+            color: #586069;
+        }
+        
+        .error {
+            background-color: #ffeef0;
+            border-left: 4px solid #d73a49;
+            padding: 15px;
+            color: #d73a49;
+            border-radius: 4px;
+        }
+        
+        .perfil {
+            background-color: #f6f8fa;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .perfil-header {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        
+        .info-usuario h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .info-usuario a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e1e4e8;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-numero {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .repositorios {
+            margin-top: 20px;
+        }
+        
+        .repo {
+            background-color: white;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .repo-nombre {
+            font-weight: bold;
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        .repo-descripcion {
+            color: #586069;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        
+        .repo-info {
+            margin-top: 10px;
+            display: flex;
+            gap: 15px;
+            font-size: 12px;
+            color: #586069;
+        }

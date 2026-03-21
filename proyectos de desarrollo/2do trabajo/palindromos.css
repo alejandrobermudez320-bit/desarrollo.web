@@ -1,0 +1,35 @@
+ body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgb(187, 236, 220);
+            
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .resultado {
+            
+            
+            
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            
+        }
+        
